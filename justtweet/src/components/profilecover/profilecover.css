@@ -1,0 +1,35 @@
+  .cover-page {
+    /* Setting profile cover styles */
+    position: relative;
+  }
+  
+  .cover-image {
+    /* setting profile cover and adjusting size */
+    background-image: url('../../../public/Twitter-Feature.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1e90ff;/* color coding using - https://reactnative.dev/docs/colors */
+    position: relative; /* Ensure relative positioning */
+    z-index: 1; /* To keep this backgrounf cover image layer behind profile image */
+  }
+  
+  .background-image h1 {
+    font-size: 48px; /* Font size*/
+    margin: 20px 0; /* Margins*/
+  }
+
+  .profile-image img {
+    position: absolute;
+    top: 150px; /* To overlap on background image but just half on it and half outsidfe */
+    left: 100px;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    z-index: 2;
+  }

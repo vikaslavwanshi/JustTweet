@@ -1,0 +1,8 @@
+.profile-info {
+    position: absolute;
+    top: 475px; 
+    left: 150px;
+    width: 240px;
+    height: 250px;
+    border-radius: 50%;
+}

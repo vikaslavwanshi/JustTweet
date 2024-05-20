@@ -1,0 +1,33 @@
+.new-tweet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .tweet-input {
+    width: 550px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+  }
+  
+  .tweet-button {
+    padding: 8px 16px;
+    background-color: #0898f1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 375px;
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  
